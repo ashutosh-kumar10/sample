@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace SampleProject
 {
-    public partial class Add_Student : Form
+    public partial class Add_Student : MetroFramework.Forms.MetroForm
     {
         public Add_Student()
         {
