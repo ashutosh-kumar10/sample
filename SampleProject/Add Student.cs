@@ -16,5 +16,26 @@ namespace SampleProject
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string n, r, c;
+            n = name.Text;
+            r = roll.Text;
+            c = course.Text;
+            MessageBox.Show("Name="+n+" Roll No="+r+" Course="+c);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            name.Text = "";
+            roll.Text = "";
+            course.Text = "";
+        }
     }
 }
